@@ -1,0 +1,84 @@
+.main-navigation>ul>li>a {
+    font-family: PTSans;
+    font-size: font-family: PTSans;
+    font-size:  16px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+}
+b {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  30px;
+  font-weight: 500;
+  color: #f7f4f1;
+  letter-spacing: 0.042em;
+}
+.features.features-item p {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  14px;
+  font-weight: 500;
+  color: #f7f4f1;
+  letter-spacing: 0.024em;
+}
+.index-content-title,
+h1,
+h2 {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  30px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.042em;
+}
+p,
+h3 + ul li  {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  24px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.024em;
+}
+time {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  14px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: auto;
+}
+.footer-contacts, .footer-social p {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  14px;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0.024em;
+}
+.content-information p:nth-child(2) {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  14px;
+  font-weight: 500;
+  color: #aeaeae;
+  letter-spacing: 0.024em;
+}
+h3 {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  24px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.03em;
+}
+input  + p,
+.money-value {
+  font-family: PTSans;
+  font-size: font-family: PTSans;
+  font-size:  14px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.018em;
+}
