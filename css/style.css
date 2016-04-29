@@ -1,84 +1,55 @@
-.main-navigation>ul>li>a {
-    font-family: PTSans;
-    font-size: font-family: PTSans;
-    font-size:  16px;
-    font-weight: 500;
+body {
+  font-family: PTSans;
+  font-size:  16px;
+  font-weight: 500;
+  color: #000000;
+}
+.main-navigation-link {
+    letter-spacing: 20px;
     color: #ffffff;
-    letter-spacing: 0.02em;
 }
-b {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
-  font-size:  30px;
-  font-weight: 500;
-  color: #f7f4f1;
-  letter-spacing: 0.042em;
+.features-item-title {
+ font-size:  16px;
+ line-height: 42px;
+ color: #f7f4f1;
 }
-.features.features-item p {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
+.features-item-text {
   font-size:  14px;
-  font-weight: 500;
+  line-height: 24px;
   color: #f7f4f1;
-  letter-spacing: 0.024em;
 }
-.index-content-title,
-h1,
 h2 {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
   font-size:  30px;
-  font-weight: 500;
-  color: #000000;
-  letter-spacing: 0.042em;
+  letter-spacing: 42px;
 }
-p,
-h3 + ul li  {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
-  font-size:  24px;
-  font-weight: 500;
-  color: #000000;
-  letter-spacing: 0.024em;
+.news-preview-text {
+  font-size:  14px;
+  line-height: 24px;
 }
 time {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
   font-size:  14px;
-  font-weight: 500;
-  color: #000000;
   letter-spacing: auto;
 }
-.footer-contacts, .footer-social p {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
+.btn {
   font-size:  14px;
-  font-weight: 500;
+  line-height: 24px;
   color: #ffffff;
-  letter-spacing: 0.024em;
 }
-.content-information p:nth-child(2) {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
+.under-nav {
   font-size:  14px;
-  font-weight: 500;
-  color: #aeaeae;
-  letter-spacing: 0.024em;
-}
-h3 {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
-  font-size:  24px;
-  font-weight: 500;
+  letter-spacing: 20px;
   color: #000000;
-  letter-spacing: 0.03em;
 }
-input  + p,
-.money-value {
-  font-family: PTSans;
-  font-size: font-family: PTSans;
+.dark {
+  color: #000000;
+}
+.content-selection-choice{
   font-size:  14px;
-  font-weight: 500;
+  line-height: 18px;
+}
+.catalog-item {
   color: #000000;
-  letter-spacing: 0.018em;
+}
+.buy {
+  color: #ffffff;
 }
