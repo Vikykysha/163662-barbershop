@@ -20,7 +20,7 @@ body {
 }
 h2 {
   font-size:  30px;
-  letter-spacing: 42px;
+  line-height: 42px;
 }
 .news-preview-text {
   font-size:  14px;
@@ -28,7 +28,7 @@ h2 {
 }
 time {
   font-size:  14px;
-  letter-spacing: auto;
+  line-height: auto;
 }
 .btn {
   font-size:  14px;
@@ -37,7 +37,7 @@ time {
 }
 .under-nav {
   font-size:  14px;
-  letter-spacing: 20px;
+  line-height: 20px;
   color: #000000;
 }
 .dark {
