@@ -7,22 +7,22 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="contaier">
+      <div class="container clearfix">
         <nav class="main-navigation">
-          <ul>
-            <li>
-             <a href="#"><img src="img/main-logo.png" width="368" height="204" alt="Логотип Барбершопа"></a>
+          <ul class = "main-navigation-ul">
+            <li class="main-navigation-li">
+             <a href="#"><img src="img/main-logo.png" width="120" height="36" alt="Логотип Барбершопа"></a>
             </li>
-            <li>
+            <li class="main-navigation-li">
               <a class="main-navigation-link"  href="#">Новости</a>
             </li>
-            <li>
+            <li class="main-navigation-li">
               <a class="main-navigation-link" href="#">Прайс-лист</a>
             </li>
-            <li>
+            <li class="main-navigation-li">
               <a class="main-navigation-link" href="#">Магазин</a>
             </li>
-            <li>
+            <li class="main-navigation-li">
               <a class="main-navigation-link" href="#">Контакты</a>
             </li>
           </ul>
@@ -33,59 +33,72 @@
       </div>
     </header>
     <main class="container">
-      <div class="second-nav">
-        <div class="above">
-          <h2>Средства для ухода</h2>
-        </div>
-        <div class="under">
-          <ul>
-            <li><a class = "under-nav" href="#">Главная</a></li>
-            <li><a class = "under-nav" href="#">Магазин</a></li>
-            <li><a class = "under-nav" href="#">Средства для ухода</a></li>
+       <h2>Средства для ухода</h2>
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs-ul" >
+            <li class="breadcrumbs-li"><a class = "under-nav" href="#">Главная</a></li>
+            <li class="breadcrumbs-li"><a class = "under-nav" href="#">Магазин</a></li>
+            <li class="breadcrumbs-li"><a class = "under-nav" href="#">Средства для ухода</a></li>
           </ul>
         </div>
-        <div class="content">
+        <div class="content clearfix">
           <div class="content-selection">
             <form class="produser" action="#" method="post">
-              <h3>Производители</h2>
+              <h3>Производители</h3>
               <label>
+               <p>
                 <input type="checkbox" name = "BAXTER OF CALIFORNIA">
-                <p class = "content-selection-choice">BAXTER OF CALIFORNIA</p>
+                <span class = "content-selection-choice">BAXTER OF CALIFORNIA</span>
+              </p>
               </label>
               <label>
+              <p>
                 <input type="checkbox" name = "MR NATTY">
-                <p class = "content-selection-choice">MR NATTY</p>
+                <span class = "content-selection-choice">MR NATTY</span>
+              </p>
               </label>
               <label>
+               <p>
                 <input type="checkbox" name = "SUAVECITO">
-                <p class = "content-selection-choice">SUAVECITO</p>
+                <span class = "content-selection-choice">SUAVECITO</span>
+               </p>
               </label>
               <label>
+               <p>
                 <input type="checkbox" name = "MALIN+GOETZ">
-                <p class = "content-selection-choice">MALIN+GOETZ</p>
+                <span class = "content-selection-choice">MALIN+GOETZ</span>
+               </p>
               </label>
               <label>
-                <input type="checkbox" name = "MURRAY'S">
-                <p class = "content-selection-choice">MURRAY'S</p>
+               <p>
+                 <input type="checkbox" name = "MURRAY'S">
+                 <span class = "content-selection-choice">MURRAY'S</span>
+                </p>
               </label>
               <label>
-                <input type="checkbox" name = "AMERICAN CREW">
-                 <p class = "content-selection-choice">AMERICAN CREW</p>
+               <p>
+                 <input type="checkbox" name = "AMERICAN CREW">
+                 <span class = "content-selection-choice">AMERICAN CREW</span>
+              </p>
               </label>
-            </form>
-            <form class="goods" action="#" method="post">
-              <h3> Группы товаров </h2>
+              <h3> Группы товаров </h3>
               <label>
+               <p>
                 <input type="radio" name="section-two" value="one">
-               <p class = "content-selection-choice">  БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</p>
+                <span class = "content-selection-choice">  БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</span>
+               </p>
               </label>
               <label>
+               <p>
                 <input type="radio" name="section-two" value="two">
-                   <p class = "content-selection-choice"> СРЕДСТВА ДЛЯ УХОДА</p>
+                <span class = "content-selection-choice"> СРЕДСТВА ДЛЯ УХОДА</span>
+                </p>
               </label>
               <label>
+                 <p>
                   <input type="radio" name="section-two" value="three">
-                   <p class = "content-selection-choice">   АКСЕССУАРЫ</p>
+                   <span class = "content-selection-choice">   АКСЕССУАРЫ</span>
+                 </p>
               </label>
               <div class="action">
                 <input type="submit" value= "Показать">
@@ -93,129 +106,129 @@
             </form>
           </div>
           <div class="content-image">
-            <ul>
-              <li>
+            <ul class="content-image-ul">
+              <li class="content-image-li">
+                <div class="content-image-inner">
                   <div class="img-container">
-                      <a href="#"><img src="img/catitem1.jpg" width="368" height="204" alt="Картинка товара"></a>
+                      <a href="#"><img src="img/catitem1.jpg" width="220" height="165" alt="Картинка товара"></a>
                   </div>
                   <div class="text-container">
                     <a class = "catalog-item content-selection-choice" href="#">
-                       Набор для путешествий<br>
-                       "BAXTER OF CALIFORNIA"
+                      <span class="category"> Набор для путешествий</span><br>
+                      <span class="title">   "BAXTER OF CALIFORNIA"</span>
                     </a>
                   </div>
                   <div class="money-container">
-                    <div class="money-value">
+                    <span class="money-value">
                       2 990 РУБ.
-                    </div>
-                    <div class="money-action">
-                        <a class = "catalog-item buy " href="#">Купить</a>
-                    </div>
+                    </span>
+                    <a class = "catalog-item buy " href="#">Купить</a>
                   </div>
+                </div>
               </li>
-              <li>
+              <li class="content-image-li">
+                <div class="content-image-inner">
                   <div class="img-container">
-                      <a href="#"><img src="img/catitem2.jpg" width="368" height="204" alt="Картинка товара"></a>
+                      <a href="#"><img src="img/catitem2.jpg" width="220" height="165" alt="Картинка товара"></a>
                   </div>
                   <div class="text-container">
                     <a class = "catalog-item content-selection-choice" href="#">
-                       Увлажняющий кондиционер<br>
-                       "BAXTER OF CALIFORNIA"
+                      <span class="category">  Увлажняющий кондиционер</span><br>
+                      <span class="title">  "BAXTER OF CALIFORNIA"</span>
                     </a>
                   </div>
                   <div class="money-container">
-                    <div class="money-value">
+                    <span class="money-value">
                       750 РУБ.
-                    </div>
-                    <div class="money-action">
-                        <a class = "catalog-item buy " href="#">Купить</a>
-                    </div>
+                    </span>
+                    <a class = "catalog-item buy " href="#">Купить</a>
                   </div>
+                </div>
               </li>
-              <li>
+              <li class="content-image-li">
+                <div class="content-image-inner">
                   <div class="img-container">
-                    <a href="#">  <img src="img/catitem3.jpg" width="368" height="204" alt="Картинка товара"></a>
+                    <a href="#">  <img src="img/catitem3.jpg" width="220" height="165" alt="Картинка товара"></a>
                   </div>
                   <div class="text-container">
                     <a class = "catalog-item content-selection-choice" href="#">
-                      Гель для волос<br>
-                      "SUAVECITO"
+                    <span class="category">   Гель для волос</span><br>
+                    <span class="title">   "SUAVECITO"</span>
                    </a>
                   </div>
                   <div class="money-container">
-                    <div class="money-value">
+                    <span class="money-value">
                       290 РУБ.
-                    </div>
-                    <div class="money-action">
-                        <a  class = "catalog-item buy " href="#">Купить</a>
-                    </div>
+                    </span>
+                    <a  class = "catalog-item buy " href="#">Купить</a>
                   </div>
+                </div>
               </li>
-              <li>
+              <li class="content-image-li">
+                <div class="content-image-inner">
                   <div class="img-container">
-                    <a href="#"><img src="img/catitem4.jpg" width="368" height="204" alt="Картинка товара"></a>
+                    <a href="#"><img src="img/catitem4.jpg" width="220" height="165" alt="Картинка товара"></a>
                   </div>
                   <div class="text-container">
                     <a class = "catalog-item content-selection-choice" href="#">
-                      Глина для укладки волос<br>
-                      "AMERICAN CREW"
+                    <span class="category">   Глина для укладки волос</span><br>
+                    <span class="title"> "AMERICAN CREW"</span>
                     </a>
                   </div>
                   <div class="money-container">
-                    <div class="money-value">
+                    <span class="money-value">
                       500 РУБ.
-                    </div>
-                    <div class="money-action">
-                        <a  class = "catalog-item buy " href="#">Купить</a>
-                    </div>
+                    </span>
+                    <a  class = "catalog-item buy " href="#">Купить</a>
                   </div>
+                </div>
                 </li>
-                <li>
+                <li class="content-image-li">
+                <div class="content-image-inner">
                   <div class="img-container">
-                    <a href="#"><img src="img/catitem5.jpg" width="368" height="204" alt="Картинка товара"></a>
+                    <a href="#"><img src="img/catitem5.jpg" width="220" height="165" alt="Картинка товара"></a>
                   </div>
                   <div class="text-container">
                     <a class = "catalog-item content-selection-choice" href="#">
-                      Гель для волос<br>
-                      "AMERICAN CREW"
+                    <span class="category">   Гель для волос</span><br>
+                    <span class="title">   "AMERICAN CREW"</span>
                     </a>
                   </div>
                   <div class="money-container">
-                    <div class="money-value">
+                    <span class="money-value">
                       300 РУБ.
-                    </div>
-                    <div class="money-action">
-                        <a  class = "catalog-item buy "  href="#">Купить</a>
-                    </div>
+                    </span>
+                    <a  class = "catalog-item buy "  href="#">Купить</a>
                   </div>
+                </div>
                 </li>
-                <li>
+                <li class="content-image-li">
+                 <div class="content-image-inner">
                   <div class="img-container">
-                    <a href="#"><img src="img/catitem6.jpg" width="368" height="204" alt="Картинка товара"></a>
+                    <a href="#"><img src="img/catitem6.jpg" width="220" height="165" alt="Картинка товара"></a>
                   </div>
                   <div class="text-container">
                     <a class = "catalog-item content-selection-choice" href="#">
-                       Набор для бритья<br>
-                       "BAXTER OF CALIFORNIA"
+                    <span class="category">    Набор для бритья</span><br>
+                    <span class="title">    "BAXTER OF CALIFORNIA"</span>
                     </a>
                   </div>
                   <div class="money-container">
-                    <div class="money-value">
+                    <span class="money-value">
                       3 900 РУБ.
-                    </div>
-                    <div class="money-action">
-                        <a class = "catalog-item buy " href="#">Купить</a>
-                    </div>
+                    </span>
+                    <a class = "catalog-item buy " href="#">Купить</a>
                   </div>
+                </div>
                 </li>
             </ul>
             <div class="number-of-page">
                <ul>
-                 <li><a class = "page-nmb" href="#">1</a></li>
-                 <li><a class = "page-nmb"  href="#">2</a></li>
-                 <li><a class = "page-nmb"  href="#">3</a></li>
-                 <li><a class = "page-nmb"  href="#">4</a></li>
-                 <li><a class = "page-nmb"  href="#">Следующая</a></li>
+                 <li class="paginator-li"><a class = "page-nmb" href="#">1</a></li>
+                 <li class="paginator-li"><a class = "page-nmb"  href="#">2</a></li>
+                 <li class="paginator-li"><a class = "page-nmb"  href="#">3</a></li>
+                 <li class="paginator-li"><a class = "page-nmb"  href="#">4</a></li>
+                 <li class="paginator-li"><a class = "page-nmb"  href="#">Следующая</a></li>
                </ul>
            </div>
           </div>
