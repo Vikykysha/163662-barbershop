@@ -3,36 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="container clearfix">
         <nav class="main-navigation">
-          <ul class = "main-navigation-ul">
-            <li class="main-navigation-li">
-             <a href="#"><img src="img/main-logo.png" width="120" height="36" alt="Логотип Барбершопа"></a>
+          <ul >
+
+             <a  href="#"><img src="img/main-logo.png" width="117" height="26" class="logo-barb" alt="Логотип Барбершопа"></a>
+            <li>
+               <a class="main-navigation-link" href="#">Информация</a>
             </li>
-            <li class="main-navigation-li">
+            <li >
               <a class="main-navigation-link"  href="#">Новости</a>
             </li>
-            <li class="main-navigation-li">
+            <li >
               <a class="main-navigation-link" href="#">Прайс-лист</a>
             </li>
-            <li class="main-navigation-li">
+            <li >
               <a class="main-navigation-link" href="#">Магазин</a>
             </li>
-            <li class="main-navigation-li">
+            <li >
               <a class="main-navigation-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
         <div class="user-block">
-          <a class="main-navigation-link"  href="#">Вход</a>
+          <a class="login"  href="#">Вход</a>
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container teksture2">
        <h2>Средства для ухода</h2>
         <div class="breadcrumbs">
           <ul class="breadcrumbs-ul" >
@@ -101,7 +105,7 @@
                  </p>
               </label>
               <div class="action">
-                <input type="submit" value= "Показать">
+                <input type="submit" class="btn" value= "Показать">
               </div>
             </form>
           </div>
@@ -122,7 +126,7 @@
                     <span class="money-value">
                       2 990 РУБ.
                     </span>
-                    <a class = "catalog-item buy " href="#">Купить</a>
+                    <a class = "buy" href="#">Купить</a>
                   </div>
                 </div>
               </li>
@@ -141,7 +145,7 @@
                     <span class="money-value">
                       750 РУБ.
                     </span>
-                    <a class = "catalog-item buy " href="#">Купить</a>
+                    <a class = "  buy" href="#">Купить</a>
                   </div>
                 </div>
               </li>
@@ -160,7 +164,7 @@
                     <span class="money-value">
                       290 РУБ.
                     </span>
-                    <a  class = "catalog-item buy " href="#">Купить</a>
+                    <a  class = "buy" href="#">Купить</a>
                   </div>
                 </div>
               </li>
@@ -179,7 +183,7 @@
                     <span class="money-value">
                       500 РУБ.
                     </span>
-                    <a  class = "catalog-item buy " href="#">Купить</a>
+                    <a  class = " buy" href="#">Купить</a>
                   </div>
                 </div>
                 </li>
@@ -198,7 +202,7 @@
                     <span class="money-value">
                       300 РУБ.
                     </span>
-                    <a  class = "catalog-item buy "  href="#">Купить</a>
+                    <a  class = "buy"  href="#">Купить</a>
                   </div>
                 </div>
                 </li>
@@ -217,39 +221,38 @@
                     <span class="money-value">
                       3 900 РУБ.
                     </span>
-                    <a class = "catalog-item buy " href="#">Купить</a>
+                    <a class = "buy" href="#">Купить</a>
                   </div>
                 </div>
                 </li>
             </ul>
             <div class="number-of-page">
                <ul>
-                 <li class="paginator-li"><a class = "page-nmb" href="#">1</a></li>
-                 <li class="paginator-li"><a class = "page-nmb"  href="#">2</a></li>
-                 <li class="paginator-li"><a class = "page-nmb"  href="#">3</a></li>
-                 <li class="paginator-li"><a class = "page-nmb"  href="#">4</a></li>
-                 <li class="paginator-li"><a class = "page-nmb"  href="#">Следующая</a></li>
+                 <li class="btn paginator-li"><a class = "page-nmb" href="#">1</a></li>
+                 <li class="btn paginator-li"><a class = "page-nmb"  href="#">2</a></li>
+                 <li class=" btn paginator-li"><a class = "page-nmb"  href="#">3</a></li>
+                 <li class="btn paginator-li"><a class = "page-nmb"  href="#">4</a></li>
                </ul>
            </div>
           </div>
         </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
-        <section class="footer-contacts btn">
+      <div class="container clearfix">
+        <section class="footer-contacts ">
           Барбершоп «Бородинский»</br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a class="footer-contacts btn" href="#">Как нас найти?</a><br>
+          <a class="footer-contacts " href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
         </section>
         <section class="footer-social">
-          <p class="footer-social btn">Давайте дружить!</p>
+          <p class="footer-social ">Давайте дружить!</p>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </section>
         <section class="footer-copyright">
-          <p class="footer-copyright btn ">Разработано:</p>
+          <p >Разработано:</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
       </div>
